@@ -20,7 +20,7 @@ with open('FilteredOut.csv', 'r') as fin, open ("FilteredOutOut.csv", 'w') as fo
         if (SequenceMatcher(None, line1[4], line2[4]).ratio() < confidence):
             writer.writerow(line1)
 
-TO SORT IT BACK
+#TO SORT IT BACK
 
 import csv
 from datetime import datetime

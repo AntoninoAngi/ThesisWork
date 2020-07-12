@@ -9,3 +9,5 @@ This results can then be used to detect the spread of any hashtag:
 Some of the algorithms are not included because they contain sensitive information that could not be shared for privacy reasons.
 
 This study was conducted thanks to an Erasmus program at Aalto University, with the collaboration of Polytechnic University of Turin.
+
+A journal publication based on this study will be made in collaboration with both professor from Aalto University, Finland, and Ohio University, USA.

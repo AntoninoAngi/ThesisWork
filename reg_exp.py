@@ -1,6 +1,5 @@
-#IO
 
-#filter tweets that only contained urls, hashtags or mentions
+#filter texts that only contained urls, hashtags or mentions
 
 import csv
 import re
@@ -22,6 +21,3 @@ with open('Filtered.csv', 'r') as fin, open ("FilteredOut.csv", 'w') as fout:
         else:
             c = c + 1
 print(c)
-
-
-

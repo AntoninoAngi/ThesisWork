@@ -1,5 +1,3 @@
-#IO ma non al 100%
-
 #sentiment analysis
 
 from textblob import TextBlob

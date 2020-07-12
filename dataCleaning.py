@@ -1,7 +1,5 @@
 """Detects the text's language."""
 
-#IO
-
 import csv
 from langdetect import detect
 translator = Translator()
@@ -22,6 +20,3 @@ with open('NewCleanedData.csv', 'r') as fin, open ("Filtered.csv", 'w') as fout:
                         writer.writerow(row)
                 except:
                     print(row)
-
-
-
